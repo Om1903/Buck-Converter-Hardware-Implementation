@@ -71,33 +71,47 @@ The TL494 PWM controller is used for generating switching pulses.
 Features:
 
 Adjustable duty cycle
+
 Adjustable frequency
+
 Internal oscillator
+
 Dead-time control
+
 Error amplifiers
+
 
 ### TC4428A MOSFET Driver
 The TC4428A driver provides:
 
 Fast gate charging
+
 Fast gate discharging
+
 Reduced switching losses
+
 Improved switching performance
+
 The driver board includes:
 
 D-VARY potentiometer for duty cycle control
+
 F-VARY potentiometer for frequency control
 
-MATLAB Simulation
+## MATLAB Simulation
 The converter was modeled and simulated in MATLAB Simulink.
 
 ### Simulation Objectives
 
 
 Verify voltage conversion ratio
+
 Observe inductor voltage waveform
+
 Observe diode current waveform
+
 Verify CCM operation
+
 Verify DCM operation
 
 ### Simulation Results
