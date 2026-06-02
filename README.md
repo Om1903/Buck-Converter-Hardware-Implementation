@@ -30,7 +30,7 @@ Experimental waveform verification
 | Power MOSFET | IRFZ44NPbF |
 | Diode | QH08TZ600 |
 
-#Working Principle
+
 
 ## Working Principle
 
@@ -59,11 +59,11 @@ Where:
 * **$V_{in}$** = Input Voltage
 * **$D$** = Duty Cycle ($0 < D < 1$)
 
-> **Note:** Unlike the Buck-Boost converter, the output voltage of a Buck converter is always lower than the input voltage ($V_o < V_{in}$) and maintains the **same polarity** as the input.
 
-#Gate Driver Design
 
-#TL494 PWM Controller
+### Gate Driver Design
+
+### TL494 PWM Controller
 The TL494 PWM controller is used for generating switching pulses.
 
 Features:
@@ -89,14 +89,14 @@ F-VARY potentiometer for frequency control
 MATLAB Simulation
 The converter was modeled and simulated in MATLAB Simulink.
 
-#Simulation Objectives
+### Simulation Objectives
 Verify voltage conversion ratio
 Observe inductor voltage waveform
 Observe diode current waveform
 Verify CCM operation
 Verify DCM operation
 
-#Simulation Results
+### Simulation Results
 Output Voltage
 Inductor Voltage
 Diode Current
