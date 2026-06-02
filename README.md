@@ -34,6 +34,7 @@ Experimental waveform verification
 
 ## Working Principle
 
+
 The Buck converter (step-down converter) transfers energy from the input DC source to the load by chopping the input voltage using a high-frequency switch (MOSFET). It utilizes an inductor and a capacitor as an energy-storage filter to deliver a smooth, lower DC output voltage.
 
 ### MOSFET ON State
@@ -61,7 +62,8 @@ Where:
 
 
 
-### Gate Driver Design
+## Gate Driver Design
+
 
 ### TL494 PWM Controller
 The TL494 PWM controller is used for generating switching pulses.
@@ -74,7 +76,7 @@ Internal oscillator
 Dead-time control
 Error amplifiers
 
-#TC4428A MOSFET Driver
+### TC4428A MOSFET Driver
 The TC4428A driver provides:
 
 Fast gate charging
@@ -90,6 +92,8 @@ MATLAB Simulation
 The converter was modeled and simulated in MATLAB Simulink.
 
 ### Simulation Objectives
+
+
 Verify voltage conversion ratio
 Observe inductor voltage waveform
 Observe diode current waveform
@@ -97,6 +101,7 @@ Verify CCM operation
 Verify DCM operation
 
 ### Simulation Results
+
 Output Voltage
 Inductor Voltage
 Diode Current
