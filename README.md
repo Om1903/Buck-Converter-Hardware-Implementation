@@ -1,5 +1,6 @@
-**Buck-Boost Converter Design, Simulation and Hardware Implementation**
-**Overview**
+# Buck-Boost Converter Design, Simulation and Hardware Implementation
+
+## Overview
 
 This project presents the design, simulation, and hardware implementation of an inverting Buck Converter developed as part of the EE252 Electrical Machines and Power Electronics Laboratory at IIT Indore.
 
